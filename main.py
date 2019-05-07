@@ -20,8 +20,9 @@ def openWebsites(websites):
 
 
 def main():
-        # get websites from txt file first
-    websites = get_websites('websites.txt')
+    # get websites from txt file first
+    file_to_read = 'websites.txt'
+    websites = get_websites(file_to_read)
 
     # open websites
     openWebsites(websites)
